@@ -9,7 +9,8 @@ To develop a neural network regression model for the given dataset.
 <b>
 A Neural Network is a computational model inspired by the structure and function of the human brain. It consists of interconnected nodes, or neurons, organized into layers. Information flows through these neurons, with each neuron receiving input, processing it, and passing the output to the next layer of neurons. The connections between neurons are governed by weights, which determine the strength of the connections.
 <br>
-
+<br>
+<hr>
 The  neural network regression model for data stored in a Google Sheets document. It begins by fetching the data and converting it into a Pandas DataFrame, followed by preprocessing steps like type conversion and splitting the data into training and testing sets. The input features are scaled using MinMaxScaler to ensure uniformity. Subsequently, a sequential neural network model is built using TensorFlow/Keras, comprising an input layer, two hidden layers employing the Rectified Linear Unit (ReLU) activation function, and an output layer. The model is compiled with the 'rmsprop' optimizer and mean squared error (MSE) loss function. Training is conducted on the training data for 5000 epochs, with the model's architecture and training history visualized for analysis. Evaluation on the testing data assesses the model's performance, and a sample input is processed to predict the corresponding output. This process demonstrates a fundamental approach to constructing and training a neural network regression model for predictive analysis of given data.
 </b>
 </div>
